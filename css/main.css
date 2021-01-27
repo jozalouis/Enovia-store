@@ -1,0 +1,417 @@
+body{
+    padding-top: 50px;
+}
+:root{
+    --first-color:#14274e;
+    --second-color:#bbb;
+    --third-color:#394867;
+    --fourth-color:#e1e4ed;
+    --main-font: tahoma;
+}
+/* navbar */
+.bg-light{
+    background-color: var(--first-color) !important;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-family: sans-serif;
+}
+.navbar-light .navbar-brand:hover{
+    color: var(--fourth-color);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--fourth-color);
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: var(--fourth-color);
+}
+.dropdown-item{
+    background-color: var(--first-color);
+    color: #fff;
+    font-family: sans-serif;
+}
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown-item:hover{
+    background-color: var(--fourth-color);
+}
+/* navbar */
+
+/* intro */
+.intro{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    height: 500px;
+    color: var(--first-color);
+    background-image: url(../imgs/pexels-jéshoots-238118.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.intro h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.intro p{
+    width: 400px;
+    margin-top: 12px;
+}
+.intro a{
+    color: var(--first-color);
+    border: solid 1px var(--first-color);
+
+}
+.intro a:hover{
+    border: solid 1px var(--first-color);
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+}
+/* intro */
+
+
+/* new-produsct */
+.new-produsct{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.new-produsct h3{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.new-produsct .new h5{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+   margin-bottom: 40px;
+}
+.new-produsct .card{
+    margin-bottom: 15px;
+}
+.new-produsct a{
+    color: var(--fourth-color);
+    border: solid 1px var(--first-color);
+    background-color: var(--first-color);
+}
+.new-produsct a:hover{
+    background: none;
+    color: var(--first-color);
+    border: solid 1px var(--first-color);
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f8f9fa;
+    border: 1px solid #ffffff;
+    border-radius: 0.25rem;
+}
+button:focus{
+    outline: none;
+}
+/* new-produsct */
+
+/* newsletter */
+.newsletter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--fourth-color);
+    color: var(--first-color);
+}
+.newsletter h4{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.newsletter p{
+    margin-top: 12px;
+}
+.newsletter input{
+    padding: 5px;
+    margin-top: 30px;
+    width: 390px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.newsletter a{
+    color: var(--fourth-color);
+    border: solid 1px var(--first-color);
+    background-color: var(--first-color);
+    vertical-align: unset;
+}
+.newsletter a:hover{
+    background: none;
+    color: var(--first-color);
+    border: solid 1px var(--first-color);
+}
+/* newsletter */
+
+
+/* orders */
+.orders{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.orders h3{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: var(--first-color);
+}
+.orders p{
+    margin-top: 12px;
+    color: var(--first-color);
+}
+.orders a{
+    color: var(--fourth-color);
+    border: solid 1px var(--first-color);
+    background-color: var(--first-color);
+    margin-bottom: 25px;
+    transition: 00.3s ease-in-out;
+}
+.orders a:hover{
+    background: none;
+    color: var(--first-color);
+    border: solid 1px var(--first-color);
+}
+.orders .gallery{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px);
+    grid-gap: 6px;
+}
+.orders .gallery img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.orders .gallery img:hover{
+    filter: grayscale(1) brightness(0.5);
+}
+.orders .gallery .img-1{
+    grid-column: span 2;
+} 
+
+
+/* orders */
+
+/* about-us */
+.about-us{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    height: 200px;
+    color: var(--first-color);
+    background-color: var(--fourth-color);
+}
+.about-us h3{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 25px; 
+}
+.about-us p{
+    margin-top: 12px;
+}
+/* about-us */
+
+/* related-links */
+.related-links{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+}
+.related-links h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.related-links ul li{
+    line-height: 2;
+}
+.related-links ul li a{
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+.related-links ul li a:hover{
+    text-decoration: underline;
+}
+.related-links input,textarea{
+    margin-bottom: 5px;
+}
+/* related-links */
+
+/* footer */
+footer{
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+/* footer */
+
+
+
+/* lets make it resonsive */
+
+/* mobile s */
+@media screen and (max-width: 375px){
+    .intro{
+        background-position: center;
+    }
+    .intro p{
+        width: auto;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .intro h3{
+        font-size: 25px;
+    }
+    .new-produsct h3{
+        font-size: 23px;
+    }
+    .new-produsct .new h5{
+        font-size: 15px;
+    }
+    .newsletter{
+        text-align: center;
+    }
+    .newsletter input{
+        margin-bottom: 9px;
+        width: 90%;
+        padding: 5px;
+    }
+    .orders h3 {
+        font-size: 25px;
+    }
+    .about-us {
+        padding-top: 48px;
+        padding-bottom: 26px;
+        height: auto;
+    }
+    .about-us h3{
+        letter-spacing: unset;
+        font-size: 20px;
+    }
+   footer{
+       padding-bottom: 10px;
+   }
+   footer p{
+       margin-top: 7px;
+   }
+}
+/* mobile s */
+
+/* mobile m */
+@media screen and (max-width: 320px){
+    .intro{
+        background-position: center;
+    }
+    .intro p{
+        width: auto;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .intro h3{
+        font-size: 25px;
+    }
+    .new-produsct h3{
+        font-size: 23px;
+    }
+    .new-produsct .new h5{
+        font-size: 15px;
+    }
+    .newsletter{
+        text-align: center;
+    }
+    .newsletter input{
+        margin-bottom: 9px;
+        width: 90%;
+        padding: 5px;
+    }
+    .orders h3 {
+        font-size: 25px;
+    }
+    .about-us {
+        padding-top: 48px;
+        padding-bottom: 26px;
+        height: auto;
+    }
+    .about-us h3{
+        letter-spacing: unset;
+        font-size: 20px;
+    }
+   footer{
+       padding-bottom: 10px;
+   }
+   footer p{
+       margin-top: 7px;
+   }
+}
+/* mobile m */
+
+/* mobile lg */
+@media screen and (max-width: 452px){
+    .intro{
+        background-position: center;
+    }
+    .intro p{
+        width: auto;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .intro h3{
+        font-size: 25px;
+    }
+    .new-produsct h3{
+        font-size: 23px;
+    }
+    .new-produsct .new h5{
+        font-size: 15px;
+    }
+    .newsletter{
+        text-align: center;
+    }
+    .newsletter input{
+        margin-bottom: 9px;
+        width: 90%;
+        padding: 5px;
+    }
+    .orders h3 {
+        font-size: 25px;
+    }
+    .about-us {
+        padding-top: 48px;
+        padding-bottom: 26px;
+        height: auto;
+    }
+    .about-us h3{
+        letter-spacing: unset;
+        font-size: 20px;
+    }
+   footer{
+       padding-bottom: 10px;
+   }
+   footer p{
+       margin-top: 7px;
+   }
+}
+/* mobile lg */
+/* lets make it resonsive */
+
+
+
+
+
+
+
